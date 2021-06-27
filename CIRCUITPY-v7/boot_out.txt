@@ -1,0 +1,1 @@
+Adafruit CircuitPython 7.0.0-alpha.2-612-g74355e828-dirty on 2021-05-20; FeatherS2 with ESP32S2
