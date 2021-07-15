@@ -10,7 +10,7 @@ echo -e "\n####################################################################\
 python3 circup.py --path "$BOARD" install adafruit_magtag adafruit_nunchuk
 #
 echo -e "\n####################################################################\n"
-python3 circup.py --path "$BOARD" install adafruit_si7021
+python3 circup.py --path "$BOARD" install adafruit_si7021 circuitpython_schedule
 #
 echo -e "\n####################################################################\n"
 python3 circup.py --path "$BOARD" list
