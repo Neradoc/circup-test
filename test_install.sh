@@ -1,9 +1,9 @@
 #!/bin/bash
 DIR=`dirname $0`
-BOARD="$DIR"/CIRCUITPY
+BOARD="$DIR"/CIRCUITPY-install
 
-rm -rf "$BOARD"/lib
-mkdir "$BOARD"/lib
+rm -rf "$BOARD"
+cp -r "$DIR"/board-default "$BOARD"
 
 #
 echo -e "\n####################################################################\n"
