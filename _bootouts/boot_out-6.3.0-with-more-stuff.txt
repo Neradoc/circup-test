@@ -1,0 +1,6 @@
+Adafruit CircuitPython 6.3.0 on 2021-05-07; Adafruit Gemma M0 with samd21e18
+Board ID:gemma_m0
+boot.py output:
+Hello from boot.py
+os.uname().nodename:
+    samd21
