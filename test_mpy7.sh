@@ -19,11 +19,11 @@ adafruit_lifx      1.10.0   *****   MPY Format
 neopixel           6.1.3    *****   MPY Format
 ####################################################################
 "
-python3 circup.py --path "$DIR"/CIRCUITPY-v6 list
+circup --path "$DIR"/CIRCUITPY-v6 list
 echo -e "\n#\n"
-python3 circup.py --path "$DIR"/CIRCUITPY-v6 update --all
+circup --path "$DIR"/CIRCUITPY-v6 update --all
 echo -e "\n#\n"
-python3 circup.py --path "$DIR"/CIRCUITPY-v6 list
+circup --path "$DIR"/CIRCUITPY-v6 list
 #
 
 echo -e "
@@ -36,9 +36,9 @@ adafruit_dotstar   2.0.4    *****   MPY Format
 adafruit_wsgi      1.1.4    *****   MPY Format
 ####################################################################
 "
-python3 circup.py --path "$DIR"/CIRCUITPY-v7 list
+circup --path "$DIR"/CIRCUITPY-v7 list
 echo -e "\n#\n"
-python3 circup.py --path "$DIR"/CIRCUITPY-v7 update --all
+circup --path "$DIR"/CIRCUITPY-v7 update --all
 echo -e "\n#\n"
-python3 circup.py --path "$DIR"/CIRCUITPY-v7 list
+circup --path "$DIR"/CIRCUITPY-v7 list
 #

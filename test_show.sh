@@ -7,23 +7,23 @@ cp -r "$DIR"/board-default "$BOARD"
 
 #
 echo -e "\n# INVALID BOARD DIRECTORY ##########################################\n"
-python3 circup.py --path "" show
+circup --path "" show
 #
 echo -e "\n# NON EXISTING BOARD DIRECTORY #####################################\n"
-python3 circup.py --path /dev/null show
+circup --path /dev/null show
 #
 echo -e "\n# NORMAL BOARD DIRECTORY ###########################################\n"
-python3 circup.py --path "$BOARD" show
+circup --path "$BOARD" show
 #
 echo -e "\n# BAD BOOT #########################################################\n"
-python3 circup.py --path "$DIR"/board-badboot list
+circup --path "$DIR"/board-badboot list
 #
 echo -e "\n# NO BOOT ##########################################################\n"
-python3 circup.py --path "$DIR"/board-noboot list
+circup --path "$DIR"/board-noboot list
 #
 echo -e "\n# BAD BOOT FORCE VERSION ###########################################\n"
-python3 circup.py --path "$DIR"/board-badboot --cp 6.3.0 list
+circup --path "$DIR"/board-badboot --cp 6.3.0 list
 #
 echo -e "\n# NO BOOT FORCE VERSION ############################################\n"
-python3 circup.py --path "$DIR"/board-noboot --cp 6.3.0 list
+circup --path "$DIR"/board-noboot --cp 6.3.0 list
 #

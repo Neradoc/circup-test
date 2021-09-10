@@ -10,8 +10,8 @@ cp -r "$DIR"/lib-all6 "$DIR"/CIRCUITPY-v7/lib
 
 #
 echo -e "####################################################################"
-python3 circup.py --path "$DIR"/CIRCUITPY-v6 list
+circup --path "$DIR"/CIRCUITPY-v6 list
 #
 echo -e "\n####################################################################\n"
-python3 circup.py --path "$DIR"/CIRCUITPY-v7 list
+circup --path "$DIR"/CIRCUITPY-v7 list
 #
