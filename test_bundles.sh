@@ -2,16 +2,16 @@
 DIR=`dirname $0`
 TOKEN=`uuidgen`
 #
-echo -e "#####################################################################"
-echo -e "# Warning this test suite will modify your bundles list !"
-while true; do
-	read -p "# Do you wish to continue ?" yn
-	case $yn in
-		[Yy]* ) break;;
-		[Nn]* ) exit;;
-		* ) echo "Please answer yes or no.";;
-	esac
-done
+# echo -e "#####################################################################"
+# echo -e "# Warning this test suite will modify your bundles list !"
+# while true; do
+# 	read -p "# Do you wish to continue ?" yn
+# 	case $yn in
+# 		[Yy]* ) break;;
+# 		[Nn]* ) exit;;
+# 		* ) echo "Please answer yes or no.";;
+# 	esac
+# done
 #
 echo -e "\n# Here are your bundles ###########################################\n"
 circup bundle-show

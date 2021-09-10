@@ -1,0 +1,2 @@
+Adafruit CircuitPython 6.2.0 on 2021-02-05; LILYGO TTGO T8 ESP32-S2 w/Display with ESP32S2
+Board ID:lilygo_ttgo_t8_s2_st7789
