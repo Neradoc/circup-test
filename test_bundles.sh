@@ -1,6 +1,6 @@
 #!/bin/bash
 DIR=`dirname $0`
-TOKEN=`uuidgen`
+TOKEN=`python3 -c "import uuid; print(uuid.uuid4())"`
 #
 # echo -e "#####################################################################"
 # echo -e "# Warning this test suite will modify your bundles list !"
@@ -29,9 +29,6 @@ circup bundle-add Neradoc/circup
 #
 echo -e "\n# Not actually a bundle ###########################################\n"
 circup bundle-add Neradoc/circup
-#
-echo -e "\n# Reset bundles ###########################################\n"
-circup bundle-remove --reset
 #
 echo -e "\n# Remove Layouts for test ###########################################\n"
 circup bundle-remove Neradoc/Circuitpython_Keyboard_Layouts
