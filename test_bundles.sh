@@ -18,6 +18,9 @@ circup bundle-show
 #
 python3 "$DIR/helper_bundles.py" save "$TOKEN"
 #
+echo -e "\n# Erase the current local config #######################################\n"
+circup bundle-remove --reset
+#
 echo -e "\n# Invalid bundle path ###########################################\n"
 circup bundle-add toto
 #
