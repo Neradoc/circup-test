@@ -1,0 +1,2 @@
+Adafruit CircuitPython 7.3.0 on 2022-05-20; Adafruit Gemma M0 with samd21e18
+Board ID:gemma_m0
